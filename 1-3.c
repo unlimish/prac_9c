@@ -1,6 +1,10 @@
 #include <stdio.h>
 
 int main(void) {
-    printf("Hello World");
+/*     printf("Hello\n");
+    printf("world\n"); */
+    printf("Hello\nWorld\n");
+    printf("Windows\tMicrosoft\n");
+    printf("MacOS\tApple\n");
     return 0;
 }
