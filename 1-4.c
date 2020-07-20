@@ -2,7 +2,6 @@
 
 int main(void)
 {
-    printf("%d",100);
-    printf("円\n");
+    printf("%d+%d=%d",100,200,300);
     return 0;
 }
