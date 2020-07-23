@@ -2,17 +2,16 @@
 
 int main(void)
 {
-    /*     int left;
-    int right;
+    double left,right;
     left = 10;
     right = 3;
 
-    printf("%d\n",left + right);
-    printf("%d\n",left - right);
-    printf("%d\n",left * right);
-    printf("%d\n",left / right);
-    printf("%d\n",left % right);
- */
+    printf("%f\n",left + right);
+    printf("%f\n",left - right);
+    printf("%f\n",left * right);
+    printf("%f\n",left / right);
+
+
     int value;
     value = 10;
     value += 30;
