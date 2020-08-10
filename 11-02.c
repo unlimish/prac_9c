@@ -1,13 +1,13 @@
 #include <stdio.h>
 
-int sum(int); //プロトタイプ宣言
+int sum(int, int);  //プロトタイプ宣言
 
 int main(void) {
-  sum(50);
+  sum(50, 100);
   return 0;
 }
 
-int sum(int max){
-  printf("%d\n", (1 + max) * max / 2);
+int sum(int min, int max) {
+  printf("%d\n", (min + max) * (max - min + 1) / 2);
   return 0;
 }
