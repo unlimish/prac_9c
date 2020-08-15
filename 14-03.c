@@ -9,6 +9,8 @@ int main(void) {
 char str[10];
 strcpy(str, "MARIO");
 printf("%s\n", str);
+str2[3] = '\0';
+printf("%s\n", str2);
 
   return 0;
 }
